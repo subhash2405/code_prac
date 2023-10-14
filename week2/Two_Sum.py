@@ -1,10 +1,9 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        a=[]
+        visited={}
         for i in range(len(nums)):
-            if nums[i]<target:
-                a.append(nums[i])
-        for j in range(len(nums)):
-            for k in range(j+1,len(nums)):
-                if target==nums[j]+nums[k]:
-                    return [j,k]
+            visited[nums[i]]=i
+        for i in range(len(nums)):
+            a=target-nums[i]
+            if a in visited and visited[a]!=i:
+                return [visited[a],i]
