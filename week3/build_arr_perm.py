@@ -9,3 +9,4 @@ class Solution(object):
             a=nums[nums[i]]
             lis.append(a)
         return lis
+#https://leetcode.com/problems/build-array-from-permutation/description/

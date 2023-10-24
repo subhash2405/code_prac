@@ -23,3 +23,4 @@ class Solution(object):
             result[i] = left[i] * right[i]
 
         return result
+#https://leetcode.com/problems/product-of-array-except-self/description/

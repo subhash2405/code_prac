@@ -16,3 +16,4 @@ class Solution(object):
             return True
         else:
             return False
+#https://leetcode.com/problems/monotonic-array/description/

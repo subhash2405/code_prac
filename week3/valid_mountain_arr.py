@@ -39,3 +39,4 @@ class Solution(object):
         else:
             return True
         return True
+#https://leetcode.com/problems/valid-mountain-array/description/

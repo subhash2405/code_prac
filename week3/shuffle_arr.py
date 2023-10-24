@@ -10,4 +10,4 @@ class Solution(object):
             nums.insert(2*i+1,a)
         return nums
 
-        
+#https://leetcode.com/problems/shuffle-the-array/description/

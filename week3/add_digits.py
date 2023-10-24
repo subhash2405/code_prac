@@ -10,3 +10,5 @@ class Solution(object):
             return 9
         else:
             return num % 9
+        
+#https://leetcode.com/problems/add-digits/description/

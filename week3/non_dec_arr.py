@@ -11,3 +11,4 @@ class Solution(object):
                     return False
                 a = 1
         return True
+#https://leetcode.com/problems/non-decreasing-array/description/
