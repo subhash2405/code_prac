@@ -18,8 +18,7 @@ class Solution(object):
                     ind=1
                     a+=1
                 else:
-                    ind=-1
-                    b+=1
+                    return False
             else:
                 if ind==1:
                     if arr[i]<arr[i+1]:
